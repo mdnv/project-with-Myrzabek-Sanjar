@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://media.istockphoto.com/id/1035561592/vector/vector-design-element-for-the-fitness-center.jpg?s=612x612&w=0&k=20&c=k3yyyEcqeivby9iE7gZIk33PAjtDqNsdEdYiMjw7qsM=" type="image/x-icon">
+    <title>Фитнес-клуб</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Добро пожаловать в наш фитнес-клуб!</h1><br>
+        <p>Заботьтесь о своем здоровье вместе с нами</p><br>
+        <a href="#signup" class="btn-primary">Записаться на пробное занятие</a>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Наши услуги</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3 class="personal">Персональные тренировки</h3>
+                <p>Индивидуальный подход для достижения ваших целей.</p>
+            </div>
+            <div class="service">
+                <h3>Групповые занятия</h3>
+                <p>Функциональные тренировки в группах для мотивации.</p>
+            </div>
+            <div class="service">
+                <h3>Кардио зона</h3>
+                <p>Современные тренажеры для кардио тренировок.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section class="trainers">
+        <h2>Наши тренеры</h2>
+        <div class="trainer-list">
+            <div class="trainer">
+                <img src="https://www.greatestphysiques.com/wp-content/uploads/2016/09/Arnold_in_jeans.jpg" alt="Тренер 1">
+                <h3>Арнольд Шварценеггер</h3>
+                <p>Сертифицированный тренер по функциональным тренировкам.</p>
+            </div>
+            <div class="trainer">
+                <img src="https://ncrdo.ru/upload/medialibrary/c7f/c7fe6836ce8be78fcaeee266ab43c423.jpg" alt="Тренер 2">
+                <h3>Мария Петрова</h3>
+                <p>Тренер по йоге и пилатесу.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule">
+        <h2>Расписание занятий</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>День</th>
+                    <th>Время</th>
+                    <th>Тренировка</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Понедельник</td>
+                    <td>18:00 - 19:00</td>
+                    <td>Функциональная тренировка</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td>19:00 - 20:00</td>
+                    <td>Йога</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sign Up Form -->
+    <section id="signup" class="signup">
+        <h2>Запишитесь на пробное занятие</h2>
+        <form>
+            <label class="name" for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label class="name" for="email">Ваш email:</label>
+            <input class="email_in" type="email" id="email" name="email" required>
+            
+            <label class="type" for="training-type">Тип тренировки:</label>
+            <select id="training-type" name="training-type" > 
+                <option value="personal">Персональная тренировка</option>
+                <option value="group">Групповое занятие</option>
+            </select>
+            <br>
+            <button type="submit" class="btn_primary">Записаться</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Фитнес-клуб. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
