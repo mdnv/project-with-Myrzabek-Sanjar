@@ -77,8 +77,18 @@ footer p {
 .name{
   margin: 0 0 0 25px ;
 }
+.name_in{
+  border: solid 3px #2c3e50;
+  border-radius: 8px;
+}
 .email_in{
   margin: 0 25px 0 0;
+  border: solid 3px #2c3e50;
+  border-radius: 8px;
+}
+.option{
+  border: solid 3px #2c3e50;
+  border-radius: 8px;
 }
 .btn_primary{
   background-color: #e74c3c;
@@ -96,4 +106,25 @@ button:hover{
   text-decoration: none;
   border-radius: 5px; 
   margin: 35px 0 0 0;
+}
+
+.about{
+  background: #e74c3c;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin: -50px 0 0 1200px;
+}
+
+.about:hover{
+  border: solid 2px #b43a2d;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin: -50px 0 0 1200px;
+  background: #8e2c22;
+}
+.list_2{
+  text-decoration: none;
+  color: white;
 }
