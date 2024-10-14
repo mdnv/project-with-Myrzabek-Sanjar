@@ -24,7 +24,7 @@ body{
 .main_block:has(.character:hover) .character:not(:hover){
   scale: 0.8s;
   opacity: 0.8s;
-  filter: blur(4px);
+  filter: blur(8px);
 }
 .programmers{
   display: flex;
