@@ -16,7 +16,6 @@ body{
     scale 0.25s ease-in,
     opacity 0.25s ease-in,
     filter 0.25s ease-in;
-
   &:hover{
     scale: 1.2s;
   }
